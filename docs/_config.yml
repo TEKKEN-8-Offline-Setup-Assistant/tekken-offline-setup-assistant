@@ -1,0 +1,133 @@
+# TEKKEN 8 Offline Setup Assistant - Jekyll Configuration
+
+# Site settings
+title: "TEKKEN 8 Offline Setup Assistant"
+description: "The ultimate offline setup assistant for TEKKEN 8. Play solo training, versus mode, and practice combos without any online requirements."
+baseurl: ""
+url: "https://tekken-8-offline-setup-assistant.github.io"
+
+# Repository
+repository: TEKKEN-8-Offline-Setup-Assistant/tekken-offline-setup-assistant
+
+# SEO
+lang: en_US
+author:
+  name: "TEKKEN 8 Offline Setup Assistant Team"
+  email: "support@tekken-offline.com"
+  twitter: "@tekken_offline"
+
+# Social media
+twitter:
+  username: tekken_offline
+  card: summary_large_image
+
+facebook:
+  app_id: 
+  publisher: 
+  admins: 
+
+# SEO Plugin
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-redirect-from
+
+# Theme
+theme: minima
+remote_theme: pages-themes/cayman@v0.2.0
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "TEKKEN Offline Team"
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guide"
+
+# Navigation
+header_pages:
+  - index.md
+  - installation.md
+  - troubleshooting.md
+  - community.md
+
+# SEO Keywords
+keywords: 
+  - tekken 8 offline
+  - tekken offline training
+  - tekken setup assistant
+  - fighting game offline tool
+  - tekken 8 local multiplayer
+  - tekken training mode
+  - offline fighting game setup
+  - tekken 8 no internet
+  - local tekken tournament
+  - tekken practice tool
+  - fighting game configuration
+  - tekken controller setup
+  - offline tekken gameplay
+  - tekken 8 graphics optimization
+  - fighting game assistant
+
+# Analytics
+google_analytics: G-XXXXXXXXXX
+
+# Social sharing
+social:
+  name: TEKKEN 8 Offline Setup Assistant
+  links:
+    - https://twitter.com/tekken_offline
+    - https://github.com/TEKKEN-8-Offline-Setup-Assistant
+    - https://discord.gg/tekken-offline
+    - https://youtube.com/c/tekken-offline-assistant
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .internal/
+
+# Include
+include:
+  - _pages
+
+# Timezone
+timezone: UTC
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# GitHub Pages
+github: [metadata]
+
+# Custom variables
+version: "2.1.0"
+release_date: "2024-12-26"
+download_url: "https://github.com/TEKKEN-8-Offline-Setup-Assistant/tekken-offline-setup-assistant/releases/latest" 

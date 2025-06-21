@@ -1,0 +1,174 @@
+# TEKKEN 8 Offline Setup Assistant - .gitignore
+
+## Internal/Secret Files
+.internal/GITHUB_CREDENTIALS.md
+.internal/
+*.credentials.md
+*.secrets.md
+*.env
+
+## Visual Studio / .NET
+*.user
+*.suo
+*.userprefs
+bin/
+obj/
+*.pdb
+*.exe
+*.dll
+*.config
+packages/
+.vs/
+.vscode/
+*.DotSettings
+
+## Build Results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+## MSBuild Binary and Structured Log
+*.binlog
+
+## NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.stackdump
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+## Game Files (Temporary)
+game_cache/
+temp_saves/
+screenshots/
+replays/
+*.sav
+*.tmp
+
+## Development
+*.log
+*.bak
+*.swp
+*.orig
+*~
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## MonoDevelop
+*.pidb
+*.sln.cache
+
+## Unity (if used for testing)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+Assets/AssetStoreTools*
+
+## Autodesk Maya
+*.ma
+*.mb
+
+## Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+## Archives
+*.7z
+*.zip
+*.rar
+*.tar
+*.gz
+
+## Certificates and Keys
+*.p12
+*.pfx
+*.key
+*.crt
+*.pem
+
+## Installer Files
+*.cab
+*.msi
+*.msm
+*.msp
+setup.exe
+install.exe
+
+## Output directories
+dist/
+build/
+publish/
+
+## Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Documentation Build
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+## Node.js (if used for build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Python (if used for scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+## Application Specific
+config.json
+settings.json
+user_data/
+cache/
+logs/
+crashes/ 
